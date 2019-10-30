@@ -100,8 +100,11 @@ new_dict = {}
 # Use if statement to check if the value is greater than 6.
 # Add the pair to the new dictionary.
 
+for key, value in fruits.items():
+    if value > 6:
+        new_dict[key] = value
 
-# print(new_dict)
+print(new_dict)
 # END PROBLEM 4 SOLUTION
 
 # END LAB EXERCISE
