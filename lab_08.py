@@ -27,8 +27,9 @@ num_fruits = []
 # Store the values of the dictionary fruits in the list named 'num_fruits'.
 # The desired answer is [10, 20, 6, 9]
 # Hint: You can do this by calling the values of the dictionary.
-num_fruits = fruits.values()
-#print(num_fruits)
+for key, value in fruits.items():
+    num_fruits.append(value)
+print(num_fruits)
 
 # print(num_fruits)
 # END PROBLEM 1 SOLUTION
